@@ -11,8 +11,8 @@ body {
   
   .circle {
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height:80px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -23,8 +23,10 @@ body {
     text-align: center;
     opacity: 1;
     overflow: hidden; 
-    animation: grow 15s forwards;
+    animation: grow 10s forwards;
     background-color: blue;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
   }
   
   @keyframes grow {
